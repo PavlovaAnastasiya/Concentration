@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140845DE25D6E93F00B83E3F /* ConcentrationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140845DD25D6E93F00B83E3F /* ConcentrationGame.swift */; };
 		1426C7BB25D6D1940059DE0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426C7BA25D6D1940059DE0A /* AppDelegate.swift */; };
 		1426C7BD25D6D1940059DE0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426C7BC25D6D1940059DE0A /* SceneDelegate.swift */; };
 		1426C7BF25D6D1940059DE0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426C7BE25D6D1940059DE0A /* ViewController.swift */; };
 		1426C7C225D6D1940059DE0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1426C7C025D6D1940059DE0A /* Main.storyboard */; };
 		1426C7C425D6D1980059DE0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1426C7C325D6D1980059DE0A /* Assets.xcassets */; };
 		1426C7C725D6D1980059DE0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1426C7C525D6D1980059DE0A /* LaunchScreen.storyboard */; };
+		1426C7D125D6E6530059DE0A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1426C7D025D6E6530059DE0A /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		140845DD25D6E93F00B83E3F /* ConcentrationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationGame.swift; sourceTree = "<group>"; };
 		1426C7B725D6D1940059DE0A /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1426C7BA25D6D1940059DE0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1426C7BC25D6D1940059DE0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		1426C7C325D6D1980059DE0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1426C7C625D6D1980059DE0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1426C7C825D6D1980059DE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1426C7D025D6E6530059DE0A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				1426C7BA25D6D1940059DE0A /* AppDelegate.swift */,
 				1426C7BC25D6D1940059DE0A /* SceneDelegate.swift */,
 				1426C7BE25D6D1940059DE0A /* ViewController.swift */,
+				140845DD25D6E93F00B83E3F /* ConcentrationGame.swift */,
+				1426C7D025D6E6530059DE0A /* Card.swift */,
 				1426C7C025D6D1940059DE0A /* Main.storyboard */,
 				1426C7C325D6D1980059DE0A /* Assets.xcassets */,
 				1426C7C525D6D1980059DE0A /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			files = (
 				1426C7BF25D6D1940059DE0A /* ViewController.swift in Sources */,
 				1426C7BB25D6D1940059DE0A /* AppDelegate.swift in Sources */,
+				140845DE25D6E93F00B83E3F /* ConcentrationGame.swift in Sources */,
 				1426C7BD25D6D1940059DE0A /* SceneDelegate.swift in Sources */,
+				1426C7D125D6E6530059DE0A /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FV44CLPZZU;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FV44CLPZZU;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
